@@ -8,7 +8,7 @@ cap = cv2.VideoCapture(0)
 detector = HandDetector(maxHands=1)
 offset = 20
 imgSize = 300
-folder = r"C:\Users\prita\Desktop\Sign Language Detection\dataset\Yes"
+folder = r"C:\Users\hello\Desktop\Sign Language Detection\dataset\Yes"
 
 counter = 0
 while True:
