@@ -7,13 +7,13 @@ import math
 cap = cv2.VideoCapture(0)
 detector = HandDetector(maxHands=1)
 classifier = Classifier(
-    r"C:\Users\prita\Desktop\Sign Language Detection\keras_model.h5",
-    r"C:\Users\prita\Desktop\Sign Language Detection\labels.txt"
+    r"C:\Users\hello\Desktop\Sign Language Detection\keras_model.h5",
+    r"C:\Users\hello\Desktop\Sign Language Detection\labels.txt"
 ) 
 
 offset = 20
 imgSize = 300
-folder = r"C:\Users\prita\Desktop\dataset prev"
+folder = r"C:\Users\hello\Desktop\dataset prev"
 counter = 0
 labels = ["Hello", "I love you", "Yes"]
 
